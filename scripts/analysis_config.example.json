@@ -1,0 +1,36 @@
+{
+  "analysis_label": "指标类别名称",
+  "input_file": "C:/absolute/path/to/data.xlsx",
+  "input_sheet": "Sheet1",
+  "input_skip": 0,
+  "input_range": null,
+  "group_column": "ecosystem",
+  "sample_id_column": null,
+  "output_dir": "C:/absolute/path/to/new_output_folder",
+  "temp_dir": "C:/absolute/path/to/project/tmp/analysis_key",
+  "output_stem": "指标类别",
+  "metric_columns": [
+    "指标1",
+    "指标2"
+  ],
+  "derived_metrics": {},
+  "plot_titles": {
+    "指标1": "Indicator 1",
+    "指标2": "Indicator 2"
+  },
+  "axis_labels": {
+    "指标1": "Indicator 1 (unit)",
+    "指标2": "Indicator 2 (unit)"
+  },
+  "expected_sha256": "REPLACE_WITH_64_CHARACTER_UPPERCASE_SHA256",
+  "expected_group_counts": {
+    "Meadow": 10,
+    "Steppe": 10,
+    "desert": 10
+  },
+  "expected_branches": null,
+  "rscript_path": "D:/Program Files/R/R-4.5.0/bin/Rscript.exe",
+  "python_executable": "D:/Python/python.exe",
+  "expected_python_version": null,
+  "expected_scipy_version": null
+}

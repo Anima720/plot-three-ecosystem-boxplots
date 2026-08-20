@@ -1,0 +1,4 @@
+interface:
+  display_name: "Three-Ecosystem Boxplot Workflow"
+  short_description: "Residual-diagnostic boxplots and statistics for three ecosystems"
+  default_prompt: "Use $plot-three-ecosystem-boxplots to analyze my Excel data for Meadow, Steppe, and Desert and deliver the verified figures, statistics workbook, diagnostics, and reproducible R code."
